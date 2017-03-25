@@ -37,7 +37,7 @@ resources:
       networks:
         - port: { get_resource: instance_port }
       user_data:
-        get_file: https://directlink-to-lb-deploy.sh
+        get_file: https://raw.githubusercontent.com/fnzv/osops-tools-contrib/master/heat/elastic/lb-deploy.sh
 
 
   association:
@@ -67,7 +67,7 @@ resources:
       networks:
         - port: { get_resource: instance_port01 }
       user_data:
-        get_file: https://directlink-to-es-deploy.sh
+        get_file: https://raw.githubusercontent.com/fnzv/osops-tools-contrib/master/heat/elastic/es-deploy.sh
 
 
 
@@ -92,7 +92,7 @@ resources:
       networks:
         - port: { get_resource: instance_port02 }
       user_data:
-        get_file: https://directlink-to-es-deploy.sh
+        get_file: https://raw.githubusercontent.com/fnzv/osops-tools-contrib/master/heat/elastic/es-deploy.sh
 
 
 
@@ -107,7 +107,7 @@ resources:
       networks:
         - port: { get_resource: instance_port03 }
       user_data:
-        get_file: https://directlink-to-es-deploy.sh
+        get_file: https://raw.githubusercontent.com/fnzv/osops-tools-contrib/master/heat/elastic/es-deploy.sh
 
 
 
