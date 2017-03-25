@@ -1,3 +1,6 @@
+# ES Cluster deploy calling external Bash scripts to setup instances after launch
+# Author: @syessou
+
 heat_template_version: 2015-04-30
 
 description: Simple template to deploy an ES Cluster
